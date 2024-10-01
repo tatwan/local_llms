@@ -134,7 +134,7 @@ def responses(user_prompt):
     return completion.choices[0].message.content
 
 response = responses("Write me a Hello World example in Java with explanations and steps in bullet points")
-print(response)
+display(Markdown(response))
 ```
 
 - **responses function**: Takes a user prompt and returns a formatted response from the API.

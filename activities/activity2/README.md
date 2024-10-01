@@ -27,11 +27,11 @@ def generate_email(subject, recipient_name, additional_info):
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt},
         ],
-        max_tokens= # add a value,
-        temperature=# add a value,
-        top_p=# add a value,
-        frequency_penalty=# add a value,
-        presence_penalty=# add a value
+        max_tokens=  __,# add a value,
+        temperature= __,# add a value,
+        top_p= __,# add a value,
+        frequency_penalty= __,# add a value,
+        presence_penalty= __,# add a value
     )
     
     # Step 3: Extract and return the generated email content from the API response
