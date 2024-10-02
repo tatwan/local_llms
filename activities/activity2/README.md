@@ -66,9 +66,9 @@ email_writing_assistant()
 ### **Temperature**
 
 - **Purpose:** `temperature` controls the randomness of the output. It influences how creative or deterministic the responses are.
-- **Range:** Number between 0 and 1.
+- **Range:** Number between 0 and 2.
   - **0:** Generates the most deterministic and predictable response.
-  - **1:** Generates the most random and creative response.
+  - **2:** Generates the most random and creative response.
 - **Usage:** Lower values (e.g., 0.2) make the output more deterministic and focused, while higher values (e.g., 0.7) make it more random and creative. 
 - **Default Value**: 0.8
 
