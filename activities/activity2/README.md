@@ -70,12 +70,16 @@ email_writing_assistant()
   - **0:** Generates the most deterministic and predictable response.
   - **1:** Generates the most random and creative response.
 - **Usage:** Lower values (e.g., 0.2) make the output more deterministic and focused, while higher values (e.g., 0.7) make it more random and creative. 
+- **Default Value**: 0.8
 
 ### **Top P (Nucleus Sampling)**
 
 - **Purpose:** `top_p` dictates the variety in responses by only considering the top ‘P’ percent of probable words. It is an alternative to sampling with temperature. In other words, it controls the diversity of the generated text.
 - **Range:** Number between 0 and 1.
 - **Usage:** Lower values (e.g., 0.8) make responses more predictable, while higher values increase diversity and surprise. For example, a value of 0.1 means only the top 10% of probable words are considered
+- **Default Value**: 0.95
+
+Example of finding the balance between **Temperature** and **Top P** Parameters 
 
 <img src="images/649f076eeeff5a9fa30e442a_OpenAI Temperature Recomendations.png" alt="Table with use cases and corresponding Temperate and Top_ p values from OpenAI" style="zoom:50%;" />
 
@@ -84,16 +88,19 @@ email_writing_assistant()
 - **Purpose:** `frequency_penalty` reduces repetition by decreasing the likelihood off frequently used words. It penalizes new tokens based on their existing frequency in the text so far.
 - **Range:** Number between -2.0 and 2.0.
 - **Usage:** Positive values penalize repetition, making the model less likely to repeat the same line verbatim. For example, a value of 0.5 would moderately reduce repetition
-- **Default** is usually `0`
+- **Default Value** is `0` (disabled)
 
 ### **Presence Penalty**
 
 - **Purpose:** `presence_penalty` promotes the introduction of new topics in the conversation. It penalizes new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.
 - **Range:** Number between -2.0 and 2.0.
 - **Usage:** Positive values encourage diverse ideas and minimize repetition. For example, a value of 0.5 would moderately encourage new topics
-- **Default** is usually `0`
+- **Default Value** is `0` (disabled)
 
-These parameters are crucial for fine-tuning the
+These parameters are crucial for fine-tuning the. For more information on the other parameters and their default values you can read here:
+
+* [Llamafile Server EndPoint Documentation](https://github.com/Mozilla-Ocho/llamafile/blob/main/llama.cpp/server/README.md#api-endpoints)
+* [OpenAI Chat Completion Documentation](https://platform.openai.com/docs/api-reference/chat/create)
 
 ### Prompt Bonus Challenge
 
