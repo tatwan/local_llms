@@ -17,6 +17,7 @@
   * [LLamafile](#llamafile)
   * [Ollama](#ollama)
 * [LLM Leaderboards](#llm-leaderboards)
+* [Interactive Visual Learners](interactive-visual-learners)
 
 # Showcase
 
@@ -78,3 +79,18 @@ https://ollama.com
 * https://www.vellum.ai/llm-leaderboard
 * https://klu.ai/llm-leaderboard
 * https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard
+
+## Interactive Visual Explaineres
+
+| Resource                                                   | URL                                               | Desc                                                         |
+| ---------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------ |
+| Tensorflow Playground                                      | https://playground.tensorflow.org/                | TensorFlow Playground is an interactive visualization tool for neural networks, |
+| CNN Explainer                                              | https://poloclub.github.io/cnn-explainer/         | CNN Explainer is an interactive visualization tool designed to help non-experts learn and examine Convolutional Neural Networks (CNNs) |
+| GAN Lab                                                    | https://poloclub.github.io/ganlab/                | Explore Generative Adversarial Networks directly in the browser with GAN Lab |
+| Distill: Exploring Neural Networks with Activation Atlases | https://distill.pub/2019/activation-atlas/        | Feature inversion to visualize millions of activations from an image classification network leads to an explorable activation atlas of features the network has learned |
+| Transformer Explainer                                      | https://poloclub.github.io/transformer-explainer/ | An Interactive Transformer Explainer based on GPT-2          |
+| Stable Diffusion Explainer                                 | https://poloclub.github.io/diffusion-explainer/   | Interactive Text to Image explainer of how Stable Diffusion works |
+
+----
+
+## 
