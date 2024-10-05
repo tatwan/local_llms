@@ -17,7 +17,7 @@
   * [LLamafile](#llamafile)
   * [Ollama](#ollama)
 * [LLM Leaderboards](#llm-leaderboards)
-* [Interactive Visual Learners](interactive-visual-learners)
+* [Interactive Visual Learners](#interactive-visual-learners)
 
 # Showcase
 
