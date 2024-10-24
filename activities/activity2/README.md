@@ -104,4 +104,4 @@ These parameters are crucial for fine-tuning the. For more information on the ot
 
 ### Prompt Bonus Challenge
 
-Modify the template to include different email tones (e.g., formal, friendly, urgent). Add an extra input where the user can select a tone, and adjust the prompt accordingly.
+Modify the template to include different email tones (e.g., formal, friendly, urgent). Add an extra input where the user can specify a tone, and adjust the prompt accordingly.
