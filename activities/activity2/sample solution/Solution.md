@@ -5,10 +5,10 @@
 * **Llamafile**: `http://127.0.0.1:8080/v1`
 
 ```python
-import openai
+from openai import OpenAI
 
 client = OpenAI(
-    base_url="http://127.0.0.1:8080/v", #assuming LLamafile
+    base_url="http://127.0.0.1:8080/v1", #assuming LLamafile
     api_key = "NoNeed"
 )
 

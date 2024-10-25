@@ -7,7 +7,7 @@
 Below is the code template with key areas left as placeholders. Your goal is to complete these sections.
 
 ```python
-import openai
+from openai import OpenAI
 
 client = OpenAI(
     base_url="", 
