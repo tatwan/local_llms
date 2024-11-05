@@ -30,8 +30,8 @@ from pathlib import Path
 Configure LlamaIndex to use the LLaMAFile for embeddings and language model functionalities:
 
 ```python
-Settings.embed_model = LlamafileEmbedding(base_url="http://localhost:8080")
-Settings.llm = Llamafile(base_url="http://localhost:8080", temperature=0, seed=0)
+Settings.embed_model = LlamafileEmbedding(base_url="http://localhost:8080", request_timeout=600)
+Settings.llm = Llamafile(base_url="http://localhost:8080", request_timeout=600, temperature=0, seed=0)
 ```
 
 - **LlamafileEmbedding**: Initializes the embedding model using the LLaMAFile server.

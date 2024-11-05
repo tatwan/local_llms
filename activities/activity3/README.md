@@ -23,8 +23,8 @@ from llama_index.core import Settings
 from llama_index.embeddings.llamafile import LlamafileEmbedding
 from llama_index.llms.llamafile import Llamafile
 
-Settings.embed_model = LlamafileEmbedding(base_url="http://localhost:8080")
-Settings.llm = Llamafile(base_url="http://localhost:8080", temperature=0, seed=0)
+Settings.embed_model = LlamafileEmbedding(base_url="http://localhost:8080", request_timeout=600)
+Settings.llm = Llamafile(base_url="http://localhost:8080", request_timeout=600, temperature=0, seed=0)
 ```
 
 - **LlamafileEmbedding**: This class is used to create an embedding model that utilizes the LLaMAFile. The `base_url` parameter specifies the URL where the LLaMAFile server is running.
