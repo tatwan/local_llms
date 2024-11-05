@@ -14,12 +14,10 @@ Load the need libraries first:
 
 
 ```python
-#!pip install -U langchain
 #!pip install openai
 #!pip install pypdf 
-# !pip install --upgrade langchain langchain-community
-# ! pip install lark
-# !conda list langchain
+#!pip install --upgrade langchain langchain-community
+#! pip install lark
 ```
 
 
