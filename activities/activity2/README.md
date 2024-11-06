@@ -102,6 +102,32 @@ These parameters are crucial for fine-tuning the. For more information on the ot
 * [Llamafile Server EndPoint Documentation](https://github.com/Mozilla-Ocho/llamafile/blob/main/llama.cpp/server/README.md#api-endpoints)
 * [OpenAI Chat Completion Documentation](https://platform.openai.com/docs/api-reference/chat/create)
 
-### Prompt Bonus Challenge
+### Prompt Challenge
 
 Modify the template to include different email tones (e.g., formal, friendly, urgent). Add an extra input where the user can specify a tone, and adjust the prompt accordingly.
+
+1. Update `email_writing_assistant` function to also capture tone. You can name the variable `input_tone`
+2. Update `generate_email` function to take an additional parameter `input_tone`
+3. Update the messages list to include the tone. Here is an example:
+
+```python
+messages=[
+            {"role": "system", "content": f"You are a helpful assistant. Always reply in a {input_tone} tone "},
+            {"role": "user", "content": prompt},
+        ],
+
+
+```
+
+Test your the code.
+
+### Prompt Bonus Challenge
+
+Modify the prompt to include an additional input parameter `critical_date`
+
+```python
+f"Write a professional email to {recipient_name} with the subject '{subject}' and '{critical_date}'. Include the following information: {additional_info}"
+```
+
+
+
